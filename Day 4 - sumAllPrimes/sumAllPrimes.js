@@ -15,7 +15,7 @@ Example
 function sumAllPrimes(num) {
     let allPrimes = []
     for(let i = 2; i <= num; i++) {
-        for(let j = 2; j ,+ i; j++) {
+        for(let j = 2; j <= i; j++) {
             if(i === j) {
                 allPrimes.push(i)
             }
